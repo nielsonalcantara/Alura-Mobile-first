@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: rgb(250, 234, 234);
+    --cor-secundaria: #A3A3A3;
+    --cor-terciaria: #FFB050;
+    --cor-quarta: #4894FF;
+    --cor-quinta: #464646;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.imagens-icones img {
+    margin: 0 0.2em;
+}
+
+/*  FIM DO MENU --------------------  */ 
+
+main {
+    background-color: var(--cor-primaria);
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    padding-bottom: 1em;   
+}
+
+.ola {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 28px;
+}
+
+.ola-texto {
+    font-size: 22px;
+}
+
+.ola-paragrafo {
+    font-size: 14px;
+    color: var(--cor-secundaria);
+}
+
+.hoje {
+    font-size: 16px;
+    color: rgb(55, 54, 54);
+    padding: 1em;
+}
+
+/*   FIM DO MODULO 1 --------- */
+
+.consulta {
+    margin: 1em;
+    border-radius: 20px;
+}
+
+.consulta__banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 1em;
+    gap: 28px;
+    border-bottom: 1px solid rgb(225, 223, 223);
+}
+
+.consulta__camera-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem__chat {
+    margin-left: 6em;
+}
+
+.consulta__nome {
+    font-size: 15px;
+    color: var(--cor-quinta);
+    padding-bottom: 0.3em;
+    font-weight: 600;
+}
+
+.consulta__paragrafo {
+    font-size: 12px;
+    color: var(--cor-secundaria);
+    margin-left: 0.5em;
+    font-weight: 400;
+}
+
+.consulta-infos {
+    background-color: white;
+    padding: 1em;
+}
+
+.consulta__horario {
+    font-size: 12px;
+    color: black;
+    padding-bottom: 1em;
+}
+
+.botao-laranja {
+    background-color: var(--cor-terciaria);
+    padding: 1em 2em;
+    border-radius: 8px;
+    border: 1px solid var(--cor-terciaria);
+    width: 150px;
+}
+
+.botao-laranja a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.botao-branco {
+    padding: 1em 2em;
+    border-radius: 8px;
+    background-color: white;
+    border: 1px solid rgb(233, 230, 230);
+    width: 150px;
+    margin-left: 1em;
+    
+}
+
+.botao-branco a {
+    text-decoration: none;
+    color: var(--cor-quinta);
+    font-size: 14px;
+}
+
+/*  FIM DO MÓDULO 2 ------------- */
+
+.ver-endereco {
+    padding: 1em 10.3em;
+    background-color: var(--cor-quarta);
+    border: 1px solid var(--cor-quarta);
+    border-radius: 8px;
+}
+
+.ver-endereco a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.amanha {
+    font-size: 16px;
+    color: rgb(55, 54, 54);
+    padding: 1em;
+}
+
+.segunda {
+    font-size: 16px;
+    color: rgb(55, 54, 54);
+    padding: 1em;
+}
